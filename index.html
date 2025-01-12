@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section with Video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Musify</div>
+
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="visit" >
+                <a href="#contact" >visit us</a>
+            </div>
+        
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="menu" id="menu">
+       
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <video loop autoplay muted >
+            <source src="assets/vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="blue-tint"></div>
+        <div class="content">
+            <div class="title">
+                <h1>Welcome to Bieber Fever! </h1>
+            </div>
+           <h2>""‘All That Matters’ – Music You Love"</h2>
+            <p>Sing along to Justin Bieber's greatest hits and discover the magic of his music.</p>
+            <div class="visitlink">
+                Subscribe Now for More!
+            </div>
+        </div>
+    </section>
+
+   <!-- Other Sections -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>Learn more about Musify and what we offer.</p>
+    <div class="important-date">
+        <p><strong>March 1, 2010:</strong> Justin Bieber releases his debut album "My World 2.0".</p>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Services</h2>
+    <p>Explore our music services and live events.</p>
+    <div class="data">
+        <p><strong>October 23, 2015:</strong> Justin Bieber's album "Purpose" hits the shelves.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Get in touch with us for more information.</p>
+    <div class="data">
+        <p><strong>February 14, 2016:</strong> Bieber's song "Love Yourself" reaches #1 on the Billboard Hot 100.</p>
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
